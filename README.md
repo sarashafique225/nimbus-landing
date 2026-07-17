@@ -1,16 +1,44 @@
-# React + Vite
+# Nimbus — SaaS Landing Page
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A fully responsive marketing landing page for **Nimbus**, a fictional team-collaboration SaaS product, built as part of the Full Stack Web Development internship at NeuroFive Solutions (Week 1 task).
 
-Currently, two official plugins are available:
+## 🔗 Live Demo
+[https://nimbus-landing-ten.vercel.app](https://nimbus-landing-ten.vercel.app)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🛠️ Framework Choice
+Built with **React (Vite)** rather than plain HTML/CSS/JS because:
+- Component-based architecture keeps each section (Navbar, Hero, Pricing, etc.) isolated and reusable
+- Vite offers instant hot-module-reload during development
+- React is the most widely-used frontend library in the industry, making this a more realistic showcase of production-style code
 
-## React Compiler
+## 📁 Project Structure
+- `src/components/` — Navbar, Hero, Features, Pricing, Testimonials, CTA, Footer (each with its own `.jsx` and `.css`)
+- `src/App.jsx` — assembles all components into the page
+- `src/index.css` — design system (colors, spacing, typography as CSS variables)
+- `src/main.jsx` — React entry point
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Each component pairs its JSX with a scoped CSS file. Shared design tokens live in `index.css` as CSS custom properties, so the whole page follows one consistent design system.
 
-## Expanding the ESLint configuration
+## 📱 Responsive Design
+The layout is fully responsive across three breakpoints:
+- **Desktop** (1024px+): 3-column grids, full navigation bar
+- **Tablet** (641px–1024px): 2-column grids, full navigation bar
+- **Mobile** (≤640px): single-column layout, collapsible hamburger navigation
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## ✨ Features
+- Sticky navbar with responsive hamburger menu
+- Hero section with call-to-action buttons
+- Features grid with icons (lucide-react)
+- Pricing table with a highlighted "Most Popular" plan
+- Testimonials section
+- Call-to-action banner
+- Footer with quick links
+
+## 🚀 Getting Started Locally
+git clone https://github.com/sarashafique225/nimbus-landing.git
+cd nimbus-landing
+npm install
+npm run dev
+
+## 👩‍💻 Author
+Sara Shafiq — Full Stack Web Development Intern, NeuroFive Solutions
