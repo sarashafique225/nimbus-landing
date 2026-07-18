@@ -40,5 +40,5 @@ cd nimbus-landing
 npm install
 npm run dev
 
-## 👩‍💻 Author
+## 👩‍💻 Developed By
 Sara Shafiq — Full Stack Web Development Intern, NeuroFive Solutions
