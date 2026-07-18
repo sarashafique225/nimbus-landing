@@ -5,6 +5,9 @@ A fully responsive marketing landing page for **Nimbus**, a fictional team-colla
 ## 🔗 Live Demo
 [https://nimbus-landing-ten.vercel.app](https://nimbus-landing-ten.vercel.app)
 
+## 📱 LinkedIn Post
+[View the responsive walkthrough post](https://www.linkedin.com/posts/sara-s-812a1330b_webdevelopment-react-frontenddevelopment-ugcPost-7483953635815538689-_ulG/?utm_source=share&utm_medium=member_android&rcm=ACoAAE7-kc4BR6-YIbUqKCJkKKPxyninpHbL49o)
+
 ## 🛠️ Framework Choice
 Built with **React (Vite)** rather than plain HTML/CSS/JS because:
 - Component-based architecture keeps each section (Navbar, Hero, Pricing, etc.) isolated and reusable
